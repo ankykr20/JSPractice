@@ -1,0 +1,21 @@
+body{
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#countLabel{
+    color: #b01c1c;
+    font-size: 10em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+}
+
+.buttons{
+
+    color: black;
+    background-color: aquamarine;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+}

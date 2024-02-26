@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sending Mail</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <!-- Form creation -->
+        <form action="">
+            <div class="input-box">
+                <!--Input Box For Full Name.-->
+                <div class="input-field field">
+                    <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+                    <div class="error-txt">Full name can't be blank.</div>
+                </div>
+                <!--Input Box For Email.-->
+                <div class="input-field field">
+                    <input type="email" placeholder="Your Email" id="email" class="item" autocomplete="off">
+                    <div class="error-txt">Email can't be blank.</div>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <!--Input Box For Phone No.-->
+                <div class="input-field field">
+                    <input type="text" placeholder="Phone No" id="phone" class="item" autocomplete="off">
+                    <div class="error-txt">Phone no can't be blank.</div>
+                </div>
+                <!--Input Box For Subject.-->
+                <div class="input-field field">
+                    <input type="text" placeholder="Subject" id="subject" class="item" autocomplete="off">
+                    <div class="error-txt">Subject can't be blank.</div>
+                </div>
+            </div>
+            <div class="textarea-field field">
+                <!--Input Box For Text Area.-->
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" class="item" autocomplete="off"></textarea>
+                <div class="error-txt">Message can't be blank.</div>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>

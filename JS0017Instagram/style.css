@@ -1,0 +1,143 @@
+*{
+    color: aliceblue;
+}
+
+#homeImage{
+    align-items: right;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#logo{
+    width: 45%;
+    height: 50%;
+    margin-left: 25%
+}
+
+#email{
+    margin-left: 21px;
+    width: 20rem;
+    margin-bottom: 3px;
+    font-size: small;
+    border-radius: 0px;
+}
+
+#pwd{
+    margin-left: 21px;
+    width: 20rem;
+    font-size: small;
+    border-radius: 0px;
+}
+
+#submit{
+    margin-left: 21px;
+    width: 20rem;
+    font-size: small;
+    color: aliceblue;
+    font-weight: 300px;
+    background-color: rgb(70, 61, 248);
+}
+
+.fbicon{
+    margin-top: -10px;
+    text-align: center;
+    text-emphasis: none;
+}
+
+#fblogo{
+    width: 15px;
+    height: 15px;
+    text-decoration: none;
+    color: blue;
+}
+
+#homeImage2{
+    align-items: right;
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+
+#fgtpwd{
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 20px;
+}
+
+#signup{
+    color: black;
+    margin-left: 90px;
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+#loginThroughoption{
+    margin-left: 70px;
+}
+
+#loginThrough1{
+    
+    border: none;
+    width: 120px;
+    height: 45px;
+
+}
+
+#loginThrough2{
+    margin-left: 5px;
+    border: none;
+    width: 120px;
+    height: 7%;
+
+}
+
+/* ---------- */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li{
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 11px;
+     text-decoration: none; 
+}
+
+ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+#lastUl{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#lastLi{
+    float: left;
+}
+
+
+#lastLi{
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 11px;
+    text-decoration: none; 
+}
+
+
